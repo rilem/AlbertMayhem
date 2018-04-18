@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShoppingCart : MonoBehaviour
 {
-	public float speed = 3;
+	public float speed;
 	private Rigidbody body;
 
 	// Use this for initialization
@@ -14,10 +14,11 @@ public class ShoppingCart : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		var x = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
+	void Update () {		
+		var x = Input.GetAxis("Horizontal") * Time.deltaTime * (speed / 10);
 		var z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
 
-		body.AddForce(x, 0, z);
+		body.AddRelativeForce(0, 0, z);
+		body.MoveRotation(body.rotation * Quaternion.Euler(0, x, 0));
 	}
 }
