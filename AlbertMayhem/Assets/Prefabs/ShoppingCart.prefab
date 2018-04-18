@@ -161,13 +161,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1491964772558858}
-  m_LocalRotation: {x: 0.10373134, y: 0.7013361, z: 0.10430379, w: 0.6974872}
-  m_LocalPosition: {x: 0.029, y: 0.482, z: 0.65901}
+  m_LocalRotation: {x: -0.10485042, y: 0.70117176, z: -0.103178985, w: 0.6976523}
+  m_LocalPosition: {x: 0.029, y: 0.482, z: -0.605}
   m_LocalScale: {x: 0.13186713, y: 0.1694815, z: 0.9106512}
   m_Children: []
   m_Father: {fileID: 4751735513743542}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -0.09200001, y: 90.302, z: 16.918001}
+  m_LocalEulerAnglesHint: {x: -0.09200001, y: 90.302, z: -16.918}
 --- !u!4 &4467364709493570
 Transform:
   m_ObjectHideFlags: 1
@@ -200,13 +200,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1139334757310194}
-  m_LocalRotation: {x: 0, y: 0.9848078, z: -0.17364816, w: 0}
-  m_LocalPosition: {x: 0, y: 1.022, z: 1.04}
+  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
+  m_LocalPosition: {x: 0, y: 1.022, z: -0.986}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4751735513743542}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 20, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
 --- !u!4 &4695853806845572
 Transform:
   m_ObjectHideFlags: 1
@@ -226,7 +226,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1331147974074724}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -2.478, y: 1.13, z: 24.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -239,7 +239,7 @@ Transform:
   - {fileID: 4599607476422934}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4815967754620874
 Transform:
   m_ObjectHideFlags: 1
@@ -557,7 +557,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -573,8 +573,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!65 &65192488178190352
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -665,6 +665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49c86ec5a7ba64ec589f689abd31cf31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 800
 --- !u!124 &124582009490684712
 Behaviour:
   m_ObjectHideFlags: 1
