@@ -11,16 +11,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ShoppingCart.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ShoppingCart.cs">
+      <file leaf-file-name="ShoppingCartController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ShoppingCartController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="74" lean-forward="false" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+            <state relative-caret-position="135">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
-                <marker date="1524060706598" expanded="false" signature="6:78" ph="..." />
-                <marker date="1524060706598" expanded="true" signature="121:554" ph="{...}" />
-                <marker date="1524060706598" expanded="true" signature="217:259" ph="{...}" />
-                <marker date="1524060706598" expanded="true" signature="314:552" ph="{...}" />
+                <marker date="1524060867026" expanded="true" signature="71:436" ph="{...}" />
+                <marker date="1524060867026" expanded="true" signature="135:177" ph="{...}" />
+                <marker date="1524060867026" expanded="true" signature="196:434" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -29,12 +28,13 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShoppingCart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShoppingCartController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/ShoppingCart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShoppingCartController.cs" />
       </list>
     </option>
   </component>
@@ -130,12 +130,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524056752951</updated>
-      <workItem from="1524056754292" duration="2040000" />
+      <workItem from="1524056754292" duration="2179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2040000" />
+    <option name="totallyTimeSpent" value="2179000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -184,15 +184,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ShoppingCart.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ShoppingCartController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="74" lean-forward="false" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+        <state relative-caret-position="135">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
-            <marker date="1524060706598" expanded="false" signature="6:78" ph="..." />
-            <marker date="1524060706598" expanded="true" signature="121:554" ph="{...}" />
-            <marker date="1524060706598" expanded="true" signature="217:259" ph="{...}" />
-            <marker date="1524060706598" expanded="true" signature="314:552" ph="{...}" />
+            <marker date="1524060867026" expanded="true" signature="71:436" ph="{...}" />
+            <marker date="1524060867026" expanded="true" signature="135:177" ph="{...}" />
+            <marker date="1524060867026" expanded="true" signature="196:434" ph="{...}" />
           </folding>
         </state>
       </provider>
